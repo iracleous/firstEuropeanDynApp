@@ -1,32 +1,37 @@
 package gr.codehub.firsteuropeandynapp.service;
 
 import gr.codehub.firsteuropeandynapp.model.Customer;
+import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class CustomerServiceImpl implements  CustomerService{
+@Service
+public class CustomerServiceImpl implements  GeneralService<Customer, Integer>{
+    private static ArrayList<Customer> customers = new ArrayList<>();
     @Override
-    public Customer createCustomer(Customer customer) {
+    public Customer create(Customer customer) {
+        customers.add(customer);
+        return customer;
+    }
+
+    @Override
+    public List<Customer> read() {
+        return customers;
+    }
+
+    @Override
+    public Customer read(Integer customerId) {
         return null;
     }
 
     @Override
-    public List<Customer> readCustomer() {
+    public Customer update(Integer customerId, Customer newCustomerValues) {
         return null;
     }
 
     @Override
-    public Customer readCustomer(int customerId) {
-        return null;
-    }
-
-    @Override
-    public Customer updateCustomer(int customerId, Customer newCustomerValues) {
-        return null;
-    }
-
-    @Override
-    public boolean deleteCustomer(int customerId) {
+    public boolean delete(Integer customerId) {
         return false;
     }
 }
