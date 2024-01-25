@@ -17,7 +17,6 @@ import java.util.Optional;
 @AllArgsConstructor
 public class CustomerController {
     private GeneralService<Customer,Long> customerService ;
-
     @PostMapping
     public Customer createCustomer(@RequestBody Customer customer) throws EntityException {
         //save customer

@@ -15,7 +15,6 @@ import java.util.Optional;
 public class CustomerServiceImpl implements  GeneralService<Customer, Long>{
     private final CustomerRepository customerRepository;
 
-
     @Override
     public Customer create(Customer customer) throws EntityException {
         if (customer == null || customer.getEmail() == null){

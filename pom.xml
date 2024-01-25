@@ -13,9 +13,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>firstEuropeanDynApp</name>
     <description>firstEuropeanDynApp</description>
+
     <properties>
         <java.version>21</java.version>
     </properties>
+
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -78,5 +81,26 @@
             </plugin>
         </plugins>
     </build>
+
+
+    <profiles>
+        <profile>
+            <id>development-profile-1</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+
+        </profile>
+        <profile>
+            <id>staging-profile-1</id>
+            <activation>
+                <property>
+                    <name>debug</name>
+                </property>
+            </activation>
+
+        </profile>
+    </profiles>
+
 
 </project>
