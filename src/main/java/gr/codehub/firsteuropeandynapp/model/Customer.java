@@ -13,6 +13,9 @@ import java.time.LocalDate;
 //avoiding boilerplate code
 @Entity
 //model, entity, domain,
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
