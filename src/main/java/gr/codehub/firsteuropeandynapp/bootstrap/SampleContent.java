@@ -1,12 +1,12 @@
 package gr.codehub.firsteuropeandynapp.bootstrap;
 
-import gr.codehub.firsteuropeandynapp.dto.RentDto;
+import gr.codehub.firsteuropeandynapp.dto.BookingDto;
 import gr.codehub.firsteuropeandynapp.model.Customer;
-import gr.codehub.firsteuropeandynapp.model.Rent;
+import gr.codehub.firsteuropeandynapp.model.Booking;
 import gr.codehub.firsteuropeandynapp.model.Room;
 import gr.codehub.firsteuropeandynapp.service.CustomerService;
 import gr.codehub.firsteuropeandynapp.service.GeneralService;
-import gr.codehub.firsteuropeandynapp.service.RentService;
+import gr.codehub.firsteuropeandynapp.service.BookingService;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -19,7 +19,7 @@ import java.sql.Date;
 public class SampleContent implements CommandLineRunner {
     private final GeneralService<Room,Long> roomService;
     private final GeneralService<Customer,Long> customerService;
-    private  final RentService rentService;
+    private  final BookingService bookingService;
     @Override
     public void run(String... args) throws Exception {
         Customer customer = new Customer();
@@ -34,11 +34,11 @@ public class SampleContent implements CommandLineRunner {
         room.setFloor(1);
         room = roomService.create(room);
 
-        RentDto rent = new RentDto();
-        rent.setCustomerId(customer.getId());
-        rent.setRoomId(room.getId());
-        rent.setStartingDate(new Date(124,1,1));
-        rent.setEndingDate(new Date(124,1,2));
-        rentService.addRent(rent);
+        BookingDto booking = new BookingDto();
+        booking.setCustomerId(customer.getId());
+        booking.setRoomId(room.getId());
+        booking.setStartingDate(new Date(124,1,1));
+        booking.setEndingDate(new Date(124,1,2));
+        bookingService.addBooking(booking);
     }
 }

@@ -15,7 +15,7 @@ import java.sql.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class Rent {
+public class Booking {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;

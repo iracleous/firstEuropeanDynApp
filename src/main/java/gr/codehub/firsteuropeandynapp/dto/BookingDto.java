@@ -5,7 +5,7 @@ import lombok.Data;
 import java.sql.Date;
 
 @Data
-public class RentDto {
+public class BookingDto {
     private long customerId;
     private long roomId;
     private Date startingDate;
