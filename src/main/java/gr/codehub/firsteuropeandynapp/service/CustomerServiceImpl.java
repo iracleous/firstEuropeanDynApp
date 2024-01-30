@@ -1,30 +1,23 @@
 package gr.codehub.firsteuropeandynapp.service;
 
-import gr.codehub.firsteuropeandynapp.customexceptions.EntityException;
+import gr.codehub.firsteuropeandynapp.exceptions.EntityException;
 import gr.codehub.firsteuropeandynapp.model.Customer;
+import gr.codehub.firsteuropeandynapp.model.Room;
 import gr.codehub.firsteuropeandynapp.repository.CustomerRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @AllArgsConstructor
-public class CustomerServiceImpl implements  GeneralService<Customer, Long>{
+public class CustomerServiceImpl implements  CustomerService {
     private final CustomerRepository customerRepository;
 
     @Override
-    public Customer create(Customer customer) throws EntityException {
-        if (customer == null || customer.getEmail() == null){
-            throw new EntityException("null input customer");
-        }
-        if(!customer.getEmail().endsWith("@gmail.com") ){
-            return null;
-        }
-        customerRepository.save(customer);
-        return customer;
+    public Customer create(Customer model) {
+        customerRepository.save(model);
+        return model;
     }
 
     @Override
@@ -33,31 +26,27 @@ public class CustomerServiceImpl implements  GeneralService<Customer, Long>{
     }
 
     @Override
-    public Optional<Customer> read(Long id) {
-        return customerRepository.findById(id);
+    public Customer read(Long id) {
+        return customerRepository.findById(id).get();
     }
 
     @Override
-    public Optional<Customer> update(Long id, Customer newCustomerValues) {
-        Optional<Customer> customer = read(id);
-        if (customer.isPresent()){
-            Customer currentCustomer = customer.get();
-            currentCustomer.setEmail(newCustomerValues.getEmail());
-            customerRepository.save(currentCustomer);
-            return Optional.of(currentCustomer);
+    public Customer update(Long id, Customer newCustomer) {
+        Customer currentCustomer = read(id);
+        if (currentCustomer == null) {
+            return null;
         }
-        return  Optional.empty();
+        newCustomer.setId(id); // risky, because newCustomer might be used somewhere else
+        return customerRepository.save(newCustomer);
     }
 
     @Override
-    public boolean delete(Long id) {
-        Optional<Customer> customer = read(id);
-        if (customer.isPresent()){
-            customerRepository.delete(customer.get());
-            return true;
+    public Customer delete(Long id) {
+        Customer customer = read(id);
+        if (customer != null) {
+            customerRepository.delete(customer); // throws RuntimeException!!!
         }
-        return false;
+        return customer;
     }
-
 
 }

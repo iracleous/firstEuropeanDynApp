@@ -1,12 +1,9 @@
 package gr.codehub.firsteuropeandynapp.controller;
 
-import gr.codehub.firsteuropeandynapp.customexceptions.EntityException;
+import gr.codehub.firsteuropeandynapp.exceptions.EntityException;
 import gr.codehub.firsteuropeandynapp.model.Customer;
-import gr.codehub.firsteuropeandynapp.service.CustomerService;
-import gr.codehub.firsteuropeandynapp.service.CustomerServiceImpl;
 import gr.codehub.firsteuropeandynapp.service.GeneralService;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -28,19 +25,19 @@ public class CustomerController {
         return customerService.read();
     }
     @GetMapping("{customerId}")
-    public Optional<Customer> getCustomer(@PathVariable long customerId){
+    public Customer getCustomer(@PathVariable long customerId){
         //get all customer
         return customerService.read(customerId);
     }
 
     @PutMapping("{customerId}")
-    public  Optional<Customer> updateCustomer(@PathVariable long customerId,@RequestBody Customer newCustomerValues){
+    public  Customer updateCustomer(@PathVariable long customerId,@RequestBody Customer newCustomer){
         //get all customer
-        return customerService.update(customerId, newCustomerValues);
+        return customerService.update(customerId, newCustomer);
     }
 
     @DeleteMapping ("{customerId}")
-    public boolean udeleteCustomer(@PathVariable long customerId){
+    public Customer deleteCustomer(@PathVariable long customerId){
         //get all customer
         return customerService.delete(customerId);
     }

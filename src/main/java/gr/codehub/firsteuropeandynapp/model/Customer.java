@@ -7,6 +7,7 @@ import lombok.*;
 import org.springframework.validation.annotation.Validated;
 
 import java.sql.Date;
+import java.time.LocalDate;
 
 @Data
 //avoiding boilerplate code
@@ -21,5 +22,5 @@ public class Customer {
 //    @Pattern(regexp = ".*([a-zA-Z0-9]{4}$)")
     @NotNull
     private String email;
-    private Date registrationDate;
+    private LocalDate registrationDate;
 }

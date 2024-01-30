@@ -1,7 +1,7 @@
 package gr.codehub.firsteuropeandynapp.controller;
 
 
-import gr.codehub.firsteuropeandynapp.customexceptions.EntityException;
+import gr.codehub.firsteuropeandynapp.exceptions.EntityException;
 import gr.codehub.firsteuropeandynapp.model.Room;
 import gr.codehub.firsteuropeandynapp.service.GeneralService;
 import lombok.AllArgsConstructor;
@@ -26,19 +26,19 @@ public class RoomController {
         return roomService.read();
     }
     @GetMapping("{RoomId}")
-    public Optional<Room> getRoom(@PathVariable long RoomId){
+    public Room getRoom(@PathVariable long RoomId){
         //get all Room
         return roomService.read(RoomId);
     }
 
     @PutMapping("{RoomId}")
-    public  Optional<Room> updateRoom(@PathVariable long RoomId,@RequestBody Room newRoomValues){
+    public  Room updateRoom(@PathVariable long RoomId,@RequestBody Room newRoomValues){
         //get all Room
         return roomService.update(RoomId, newRoomValues);
     }
 
     @DeleteMapping ("{RoomId}")
-    public boolean deleteRoom(@PathVariable long RoomId){
+    public Room deleteRoom(@PathVariable long RoomId){
         //get all Room
         return roomService.delete(RoomId);
     }
