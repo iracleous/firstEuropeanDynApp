@@ -18,7 +18,7 @@ public class Room {
     private long id;
     private String name;
     private int floor;
-    private int size;
+    private int guestCount;
     private BigDecimal price;
     private Date renovationDate;
 }

@@ -20,12 +20,12 @@ public class BookingController {
     }
 
     @DeleteMapping("{bookingId}")
-    public boolean cancelBooking(@PathVariable long bookingId) {
-        return bookingService.cancelBooking(bookingId);
+    public Booking cancelBooking(@PathVariable long bookingId) {
+        return bookingService.delete(bookingId);
     }
 
     @GetMapping("{bookingId}")
-    public Optional<Booking> getBooking(@PathVariable long bookingId) {
-        return bookingService.getBooking(bookingId);
+    public Booking getBooking(@PathVariable long bookingId) {
+        return bookingService.read(bookingId);
     }
 }

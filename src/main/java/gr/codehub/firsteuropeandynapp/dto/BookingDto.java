@@ -2,12 +2,12 @@ package gr.codehub.firsteuropeandynapp.dto;
 
 import lombok.Data;
 
-import java.sql.Date;
+import java.time.LocalDate;
 
 @Data
 public class BookingDto {
     private long customerId;
     private long roomId;
-    private Date startingDate;
-    private Date endingDate;
+    private LocalDate checkInDate;
+    private LocalDate checkOutDate;
   }

@@ -6,8 +6,7 @@ import gr.codehub.firsteuropeandynapp.model.Booking;
 import java.sql.Date;
 import java.util.Optional;
 
-public interface BookingService {
+public interface BookingService extends GeneralService<Booking, Long> {
     Booking addBooking(BookingDto bookingDto);
-    boolean cancelBooking(long bookingId);
-    Optional<Booking> getBooking(long bookingId);
+
 }

@@ -1,15 +1,14 @@
 package gr.codehub.firsteuropeandynapp.service;
 
-import gr.codehub.firsteuropeandynapp.customexceptions.EntityException;
-import gr.codehub.firsteuropeandynapp.model.Customer;
+import gr.codehub.firsteuropeandynapp.exceptions.EntityException;
 
 import java.util.List;
 import java.util.Optional;
 
 public interface GeneralService<T, K> {
-    T create(T model)  throws EntityException;
+    T create(T model);
     List<T> read();
-    Optional<T> read(K id);
-    Optional<T> update(K id, T newCustomerValues);
-    boolean delete(K id);
+    T read(K id);
+    T update(K id, T newValues);
+    T delete(K id);
 }
