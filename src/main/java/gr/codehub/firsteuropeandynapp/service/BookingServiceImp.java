@@ -1,6 +1,7 @@
 package gr.codehub.firsteuropeandynapp.service;
 
-import gr.codehub.firsteuropeandynapp.dto.BookingDto;
+import gr.codehub.firsteuropeandynapp.dto.BookingRequestDto;
+import gr.codehub.firsteuropeandynapp.dto.BookingResponseDto;
 import gr.codehub.firsteuropeandynapp.exceptions.MutableBookingException;
 import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.model.Booking;
@@ -11,8 +12,10 @@ import gr.codehub.firsteuropeandynapp.repository.RoomRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor
@@ -22,29 +25,50 @@ public class BookingServiceImp implements BookingService {
     private final BookingRepository bookingRepository;
 
     @Override
-    public Booking addBooking(BookingDto bookingDto) {
-        Customer customer = customerRepository
-                .findById(bookingDto.getCustomerId())
-                .get();
-        Room room = roomRepository
-                .findById(bookingDto.getRoomId())
-                .get();
-        Booking booking = Booking
-                .builder()
-                .customer(customer)
-                .room(room)
-                .checkInDate(bookingDto.getCheckInDate())
-                .checkOutDate(bookingDto.getCheckOutDate())
-                .build();
+    public BookingResponseDto addBooking(BookingRequestDto bookingRequestDto) {
+      try {
+          Customer customer = customerRepository
+                  .findById(bookingRequestDto.getCustomerId())
+                  .get();
+          Room room = roomRepository
+                  .findById(bookingRequestDto.getRoomId())
+                  .get();
+          Booking booking = Booking
+                  .builder()
+                  .customer(customer)
+                  .room(room)
+                  .checkInDate(bookingRequestDto.getCheckInDate())
+                  .checkOutDate(bookingRequestDto.getCheckOutDate())
+                  .build();
 
-//        Booking booking = new Booking();
-//        booking.setCustomer(customer);
-//        booking.setRoom(room);
-//        booking.setCheckInDate(bookingDto.getCheckInDate());
-//        booking.setCheckOutDate(bookingDto.getCheckOutDate());
-
-        return create(booking);
+          return BookingResponseDto.createDto(create(booking));
+      }
+      catch(Exception e){
+          return null;
+      }
     }
+
+    @Override
+    public BookingResponseDto readBooking(long bookingId) {
+        var booking = read(bookingId);
+        return BookingResponseDto.createDto(booking);
+    }
+
+    @Override
+    public List<BookingResponseDto> readBooking() {
+        return read()
+                .stream()
+                .map( booking -> BookingResponseDto.createDto(booking))
+                .collect(Collectors.toList());
+    }
+
+
+    @Override
+    public BookingResponseDto deleteBooking(long bookingId) {
+        var booking = delete(bookingId);
+        return BookingResponseDto.createDto(booking);
+    }
+
 
 
     public Booking create(Booking  booking) {
@@ -64,7 +88,9 @@ public class BookingServiceImp implements BookingService {
     @Override
     public Booking read(Long bookingId) {
         Optional<Booking> booking = bookingRepository.findById(bookingId);
-        return booking.get();
+        if(booking.isPresent())
+            return booking.get();
+        return null;
     }
 
 

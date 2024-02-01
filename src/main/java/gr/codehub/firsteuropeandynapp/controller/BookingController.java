@@ -1,12 +1,13 @@
 package gr.codehub.firsteuropeandynapp.controller;
 
-import gr.codehub.firsteuropeandynapp.dto.BookingDto;
+import gr.codehub.firsteuropeandynapp.dto.BookingRequestDto;
+import gr.codehub.firsteuropeandynapp.dto.BookingResponseDto;
 import gr.codehub.firsteuropeandynapp.model.Booking;
 import gr.codehub.firsteuropeandynapp.service.BookingService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
+import java.util.List;
 
 @RestController
 @AllArgsConstructor
@@ -15,17 +16,28 @@ public class BookingController {
     private final BookingService bookingService;
 
     @PostMapping("")
-    public Booking addBooking(@RequestBody BookingDto bookingDto) {
-        return bookingService.addBooking(bookingDto);
+    public BookingResponseDto addBooking(@RequestBody BookingRequestDto bookingRequestDto) {
+        return bookingService.addBooking(bookingRequestDto);
     }
 
     @DeleteMapping("{bookingId}")
-    public Booking cancelBooking(@PathVariable long bookingId) {
-        return bookingService.delete(bookingId);
+    public BookingResponseDto cancelBooking(@PathVariable long bookingId) {
+        return bookingService.deleteBooking(bookingId);
     }
 
     @GetMapping("{bookingId}")
-    public Booking getBooking(@PathVariable long bookingId) {
-        return bookingService.read(bookingId);
+    public BookingResponseDto getBooking(@PathVariable long bookingId) {
+        return bookingService.readBooking(bookingId);
     }
+
+    @GetMapping("all")
+    public List<BookingResponseDto> getBooking() {
+        return bookingService.readBooking();
+    }
+
+    @GetMapping("all2")
+    public List<Booking> getBooking2() {
+        return bookingService.read();
+    }
+
 }

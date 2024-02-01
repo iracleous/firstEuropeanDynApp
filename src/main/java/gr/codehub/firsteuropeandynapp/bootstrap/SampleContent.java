@@ -1,6 +1,6 @@
 package gr.codehub.firsteuropeandynapp.bootstrap;
 
-import gr.codehub.firsteuropeandynapp.dto.BookingDto;
+import gr.codehub.firsteuropeandynapp.dto.BookingRequestDto;
 import gr.codehub.firsteuropeandynapp.model.Booking;
 import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.model.Room;
@@ -11,7 +11,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
-import java.sql.Date;
 import java.time.LocalDate;
 import java.time.Month;
 
@@ -42,7 +41,7 @@ public class SampleContent implements CommandLineRunner {
         room1.setFloor(1);
         room1 = roomService.create(room1);
 
-        BookingDto booking1 = new BookingDto();
+        BookingRequestDto booking1 = new BookingRequestDto();
         booking1.setCustomerId(customer1.getId());
         booking1.setRoomId(room1.getId());
         booking1.setCheckInDate(LocalDate.of(2024, Month.FEBRUARY, 21));

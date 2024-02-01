@@ -9,26 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api/")
 public class DynController {
-    @GetMapping("hello")
+    @GetMapping("ping")
     public String getGreeting(){
-        return "hello";
+        return "The is service is up.";
     }
-    @GetMapping("/value/")
-    public int getValue(){
-        return 1;
-    }
-    @PostMapping
-    public String doTask(){
-        return "ok";
-    }
-    @GetMapping
-    public void doVoid(){
-    }
-    @GetMapping("/customer")
-    public Customer getACustomer(){
-        var customer = new Customer();
-        customer.setName("George");
-        customer.setEmail("george@mail.com");
-        return customer;
-    }
+
 }
