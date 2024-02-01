@@ -10,16 +10,17 @@ import gr.codehub.firsteuropeandynapp.repository.CustomerRepository;
 import gr.codehub.firsteuropeandynapp.repository.BookingRepository;
 import gr.codehub.firsteuropeandynapp.repository.RoomRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
+@Primary
 @AllArgsConstructor
-public class BookingServiceImp implements BookingService {
+public class BookingServiceImpl implements BookingService {
     private final CustomerRepository customerRepository;
     private final RoomRepository roomRepository;
     private final BookingRepository bookingRepository;
@@ -60,6 +61,24 @@ public class BookingServiceImp implements BookingService {
                 .stream()
                 .map( booking -> BookingResponseDto.createDto(booking))
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<BookingResponseDto> readBookingsByCustomerId(Long customerId) {
+        return bookingRepository
+                .getBookingsByCustomerId(customerId)
+                .stream()
+                .map( booking -> BookingResponseDto.createDto(booking))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public BookingResponseDto readBookingByCustomerId(Long customerId) {
+//TODO
+        var result = bookingRepository.getBookingByCustomerId(customerId);
+        if (result.isEmpty())
+            return null;
+        return  BookingResponseDto.createDto(result.get() );
     }
 
 

@@ -54,5 +54,13 @@ public class SampleContent implements CommandLineRunner {
         booking2.setCheckInDate(LocalDate.of(2024, Month.FEBRUARY, 26));
         booking2.setCheckOutDate(LocalDate.of(2024, Month.FEBRUARY, 28));
         bookingService.create(booking2);
+
+        Booking booking3 = new Booking();
+        booking3.setCustomer(customer2);
+        booking3.setRoom(room1);
+        booking3.setCheckInDate(LocalDate.of(2024, Month.JANUARY, 26));
+        booking3.setCheckOutDate(LocalDate.of(2024, Month.JANUARY, 28));
+        bookingService.create(booking3);
+
     }
 }

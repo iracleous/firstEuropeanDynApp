@@ -1,5 +1,6 @@
 package gr.codehub.firsteuropeandynapp.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
@@ -8,6 +9,7 @@ import org.springframework.validation.annotation.Validated;
 
 import java.sql.Date;
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 //avoiding boilerplate code
@@ -26,4 +28,8 @@ public class Customer {
     @NotNull
     private String email;
     private LocalDate registrationDate;
+
+    @OneToMany(mappedBy = "customer")
+    @JsonIgnore
+    private List<Booking> bookings;
 }
