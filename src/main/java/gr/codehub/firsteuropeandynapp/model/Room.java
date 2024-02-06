@@ -1,5 +1,6 @@
 package gr.codehub.firsteuropeandynapp.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -24,7 +25,9 @@ public class Room {
     private int guestCount;
     private BigDecimal price;
     private Date renovationDate;
+    private boolean hasShower;
 
     @OneToMany(mappedBy = "room")
+    @JsonIgnore
     private List<Booking> bookings;
 }
