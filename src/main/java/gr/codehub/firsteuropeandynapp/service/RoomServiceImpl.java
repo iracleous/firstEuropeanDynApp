@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Service
 @AllArgsConstructor
-public class RoomServiceImpl implements GeneralService<Room, Long> {
+public class RoomServiceImpl implements RoomService {
     private final RoomRepository roomRepository;
 
     @Override

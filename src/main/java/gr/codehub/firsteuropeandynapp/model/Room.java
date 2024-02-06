@@ -20,7 +20,7 @@ public class Room {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String name;
-    private int floor;
+    private int floorNumber;
     private int guestCount;
     private BigDecimal price;
     private Date renovationDate;
