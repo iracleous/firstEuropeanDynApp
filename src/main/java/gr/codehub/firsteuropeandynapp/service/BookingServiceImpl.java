@@ -74,7 +74,7 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public BookingResponseDto readBookingByCustomerId(Long customerId) {
-//TODO
+        // TODO
         var result = bookingRepository.getBookingByCustomerId(customerId);
         if (result.isEmpty())
             return null;

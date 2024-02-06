@@ -25,7 +25,6 @@ public class Room {
     private BigDecimal price;
     private Date renovationDate;
 
-
     @OneToMany(mappedBy = "room")
     private List<Booking> bookings;
 }
