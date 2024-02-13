@@ -14,16 +14,15 @@ import java.time.LocalDate;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class Booking {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @ManyToOne(fetch = FetchType.LAZY)
-   // @JsonIgnore
+    //@JsonIgnore
     private Customer customer;
     @ManyToOne(fetch = FetchType.LAZY)
- //   @JsonIgnore
+    //@JsonIgnore
     private Room room;
     private LocalDate checkInDate;
     private LocalDate checkOutDate;

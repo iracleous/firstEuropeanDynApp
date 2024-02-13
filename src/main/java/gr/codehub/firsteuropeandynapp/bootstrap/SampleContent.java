@@ -4,8 +4,10 @@ import gr.codehub.firsteuropeandynapp.dto.BookingRequestDto;
 import gr.codehub.firsteuropeandynapp.model.Booking;
 import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.model.Room;
+import gr.codehub.firsteuropeandynapp.service.CustomerService;
 import gr.codehub.firsteuropeandynapp.service.GeneralService;
 import gr.codehub.firsteuropeandynapp.service.BookingService;
+import gr.codehub.firsteuropeandynapp.service.RoomService;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -17,50 +19,55 @@ import java.time.Month;
 @Component
 @AllArgsConstructor
 public class SampleContent implements CommandLineRunner {
-    private final GeneralService<Room,Long> roomService;
-    private final GeneralService<Customer,Long> customerService;
+    private final RoomService roomService;
+    private final CustomerService customerService;
     private  final BookingService bookingService;
     @Override
     public void run(String... args) throws Exception {
-        Customer customer1 = new Customer();
-        customer1.setName("John Smith");
-        customer1.setEmail("john.smith@johnsmith.com");
-        customer1.setRegistrationDate(LocalDate.of(2024, Month.JANUARY, 22));
-        customer1 = customerService.create(customer1);
+        Customer customer1 = createCustomer("John Smith", "john.smith@johnsmith.com", "2024-01-13");
+        Customer customer2 = createCustomer("Anne Gray", "anne.gray@annegray.com", "2023-11-17");
+        Customer customer3 = createCustomer("Bill Stevens", "bill.stevens01@williamstevens.com", "2024-02-02");
 
-        Customer customer2 = new Customer();
-        customer2.setName("Anne Gray");
-        customer2.setEmail("anne.gray@annegray.com");
-        customer2.setRegistrationDate(LocalDate.of(2023, Month.DECEMBER, 12));
-        customer2 = customerService.create(customer2);
+        Room room1 = createRoom("A101", "99.90", 4, 1);
+        Room room2 = createRoom("A103", "88.00", 3, 1);
+        Room room3 = createRoom("B208", "79.90", 2, 2);
+        Room room4 = createRoom("C311", "49.90", 2, 3);
+        Room room5 = createRoom("Junior Suite", "250.00", 6, 5);
 
-        Room room1 = new Room();
-        room1.setPrice(new BigDecimal("100.05"));
-        room1.setName("A101");
-        room1.setGuestCount(4);
-        room1.setFloor(1);
-        room1 = roomService.create(room1);
-
-        BookingRequestDto booking1 = new BookingRequestDto();
-        booking1.setCustomerId(customer1.getId());
-        booking1.setRoomId(room1.getId());
-        booking1.setCheckInDate(LocalDate.of(2024, Month.FEBRUARY, 21));
-        booking1.setCheckOutDate(LocalDate.of(2024, Month.FEBRUARY, 24));
-        bookingService.addBooking(booking1);
-
-        Booking booking2 = new Booking();
-        booking2.setCustomer(customer2);
-        booking2.setRoom(room1);
-        booking2.setCheckInDate(LocalDate.of(2024, Month.FEBRUARY, 26));
-        booking2.setCheckOutDate(LocalDate.of(2024, Month.FEBRUARY, 28));
-        bookingService.create(booking2);
-
-        Booking booking3 = new Booking();
-        booking3.setCustomer(customer2);
-        booking3.setRoom(room1);
-        booking3.setCheckInDate(LocalDate.of(2024, Month.JANUARY, 26));
-        booking3.setCheckOutDate(LocalDate.of(2024, Month.JANUARY, 28));
-        bookingService.create(booking3);
+        createBookingDto(customer1, room1, "2024-02-21", "2024-02-25");
+        createBookingDto(customer2, room3, "2024-02-27", "2024-03-11");
+        createBookingDto(customer2, room2, "2024-02-27", "2024-03-11");
+        createBookingDto(customer3, room4, "2024-02-11", "2024-02-24");
+        createBookingDto(customer1, room5, "2024-04-07", "2024-04-09");
+        createBookingDto(customer2, room4, "2024-02-25", "2024-03-04");
 
     }
+
+    private Booking createBookingDto(Customer customer, Room room, String checkInDate, String checkOutDate) {
+        BookingRequestDto booking = new BookingRequestDto();
+        booking.setCustomerId(customer.getId());
+        booking.setRoomId(room.getId());
+        booking.setCheckInDate(LocalDate.parse(checkInDate));
+        booking.setCheckOutDate(LocalDate.parse(checkOutDate));
+        return bookingService.createBooking(booking);
+    }
+
+    private Room createRoom(String name, String price, int guestCount, int floorNumber) {
+        Room room = new Room();
+        room.setName(name);
+        room.setPrice(new BigDecimal(price));
+        room.setGuestCount(guestCount);
+        room.setFloorNumber(floorNumber);
+        return roomService.create(room);
+    }
+
+    private Customer createCustomer(String name, String email, String registrationDate) {
+        Customer customer = new Customer();
+        customer.setName(name);
+        customer.setEmail(email);
+        customer.setRegistrationDate(LocalDate.parse(registrationDate));
+        return customerService.create(customer);
+    }
+
+
 }

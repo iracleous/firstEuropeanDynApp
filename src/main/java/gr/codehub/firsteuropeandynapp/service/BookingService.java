@@ -5,16 +5,18 @@ import gr.codehub.firsteuropeandynapp.dto.BookingResponseDto;
 import gr.codehub.firsteuropeandynapp.model.Booking;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface BookingService extends GeneralService<Booking, Long> {
-    BookingResponseDto addBooking(BookingRequestDto bookingRequestDto);
+
+    Booking createBooking(BookingRequestDto bookingRequestDto);
+
+    BookingResponseDto createBookingResponseDto(BookingRequestDto bookingRequestDto);
 
     BookingResponseDto deleteBooking(long bookingId);
 
-    BookingResponseDto readBooking(long bookingId);
+    BookingResponseDto readBookingResponseDto(long bookingId);
 
-    List<BookingResponseDto> readBooking();
+    List<BookingResponseDto> readBookingResponseDto();
 
     List<BookingResponseDto> readBookingsByCustomerId(Long customerId);
     BookingResponseDto readBookingByCustomerId(Long customerId);

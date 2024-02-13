@@ -3,7 +3,6 @@ package gr.codehub.firsteuropeandynapp.service;
 import gr.codehub.firsteuropeandynapp.dto.BookingRequestDto;
 import gr.codehub.firsteuropeandynapp.dto.BookingResponseDto;
 import gr.codehub.firsteuropeandynapp.exceptions.MutableBookingException;
-import gr.codehub.firsteuropeandynapp.mapper.BookingMapper;
 import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.model.Booking;
 import gr.codehub.firsteuropeandynapp.model.Room;
@@ -25,44 +24,42 @@ public class BookingServiceImpl implements BookingService {
     private final CustomerRepository customerRepository;
     private final RoomRepository roomRepository;
     private final BookingRepository bookingRepository;
-    private final BookingMapper bookingMapper;
 
-
-    @Override
-    public BookingResponseDto addBooking(BookingRequestDto bookingRequestDto) {
-      try {
-          Customer customer = customerRepository
-                  .findById(bookingRequestDto.getCustomerId())
-                  .get();
-          Room room = roomRepository
-                  .findById(bookingRequestDto.getRoomId())
-                  .get();
-          Booking booking = Booking
-                  .builder()
-                  .customer(customer)
-                  .room(room)
-                  .checkInDate(bookingRequestDto.getCheckInDate())
-                  .checkOutDate(bookingRequestDto.getCheckOutDate())
-                  .build();
-
-          return bookingMapper.bookingToBookingDto(booking);
-      }
-      catch(Exception e){
-          return null;
-      }
+    public Booking createBooking(BookingRequestDto bookingRequestDto) {
+        Customer customer = customerRepository
+                .findById(bookingRequestDto.getCustomerId())
+                .get();
+        Room room = roomRepository
+                .findById(bookingRequestDto.getRoomId())
+                .get();
+        Booking booking = Booking
+                .builder()
+                .customer(customer)
+                .room(room)
+                .checkInDate(bookingRequestDto.getCheckInDate())
+                .checkOutDate(bookingRequestDto.getCheckOutDate())
+                .build();
+        Booking savedBooking = create(booking);
+        return savedBooking;
     }
 
     @Override
-    public BookingResponseDto readBooking(long bookingId) {
+    public BookingResponseDto createBookingResponseDto(BookingRequestDto bookingRequestDto) {
+        Booking savedBooking = createBooking(bookingRequestDto);
+        return BookingResponseDto.createDto(savedBooking);
+    }
+
+    @Override
+    public BookingResponseDto readBookingResponseDto(long bookingId) {
         var booking = read(bookingId);
         return BookingResponseDto.createDto(booking);
     }
 
     @Override
-    public List<BookingResponseDto> readBooking() {
+    public List<BookingResponseDto> readBookingResponseDto() {
         return read()
                 .stream()
-                .map( booking -> bookingMapper.bookingToBookingDto(booking))
+                .map(booking -> BookingResponseDto.createDto(booking))
                 .collect(Collectors.toList());
     }
 
@@ -71,29 +68,28 @@ public class BookingServiceImpl implements BookingService {
         return bookingRepository
                 .getBookingsByCustomerId(customerId)
                 .stream()
-                .map( booking ->bookingMapper.bookingToBookingDto(booking))
+                .map(booking -> BookingResponseDto.createDto(booking))
                 .collect(Collectors.toList());
     }
 
     @Override
     public BookingResponseDto readBookingByCustomerId(Long customerId) {
-//TODO
+        // TODO
         var result = bookingRepository.getBookingByCustomerId(customerId);
         if (result.isEmpty())
             return null;
-        return  BookingResponseDto.createDto(result.get() );
+        return BookingResponseDto.createDto(result.get());
     }
 
 
     @Override
     public BookingResponseDto deleteBooking(long bookingId) {
         var booking = delete(bookingId);
-        return bookingMapper.bookingToBookingDto(booking);
+        return BookingResponseDto.createDto(booking);
     }
 
 
-
-    public Booking create(Booking  booking) {
+    public Booking create(Booking booking) {
         return bookingRepository.save(booking);
     }
 
@@ -110,7 +106,7 @@ public class BookingServiceImpl implements BookingService {
     @Override
     public Booking read(Long bookingId) {
         Optional<Booking> booking = bookingRepository.findById(bookingId);
-        if(booking.isPresent())
+        if (booking.isPresent())
             return booking.get();
         return null;
     }

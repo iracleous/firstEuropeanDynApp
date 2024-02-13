@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FirstEuropeanDynApplication {
+public class ReservationsApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(FirstEuropeanDynApplication.class, args);
+        SpringApplication.run(ReservationsApplication.class, args);
     }
 
 }

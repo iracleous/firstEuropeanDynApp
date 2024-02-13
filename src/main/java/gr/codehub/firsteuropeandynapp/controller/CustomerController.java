@@ -2,6 +2,8 @@ package gr.codehub.firsteuropeandynapp.controller;
 
 import gr.codehub.firsteuropeandynapp.exceptions.EntityException;
 import gr.codehub.firsteuropeandynapp.model.Customer;
+import gr.codehub.firsteuropeandynapp.service.CustomerService;
+import gr.codehub.firsteuropeandynapp.service.CustomerServiceImpl;
 import gr.codehub.firsteuropeandynapp.service.GeneralService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -13,32 +15,30 @@ import java.util.Optional;
 @RequestMapping("/customer")
 @AllArgsConstructor
 public class CustomerController {
-    private GeneralService<Customer,Long> customerService ;
+    private final CustomerService customerService;
+
     @PostMapping
     public Customer createCustomer(@RequestBody Customer customer) throws EntityException {
-        //save customer
         return customerService.create(customer);
-     }
+    }
+
     @GetMapping
-    public List<Customer> getCustomer(){
-        //get all customer
+    public List<Customer> getCustomer() {
         return customerService.read();
     }
-    @GetMapping("{customerId}")
-    public Customer getCustomer(@PathVariable long customerId){
-        //get all customer
+
+    @GetMapping("/{customerId}")
+    public Customer getCustomer(@PathVariable long customerId) {
         return customerService.read(customerId);
     }
 
-    @PutMapping("{customerId}")
-    public  Customer updateCustomer(@PathVariable long customerId,@RequestBody Customer newCustomer){
-        //get all customer
+    @PutMapping("/{customerId}")
+    public Customer updateCustomer(@PathVariable long customerId, @RequestBody Customer newCustomer) {
         return customerService.update(customerId, newCustomer);
     }
 
-    @DeleteMapping ("{customerId}")
-    public Customer deleteCustomer(@PathVariable long customerId){
-        //get all customer
+    @DeleteMapping("/{customerId}")
+    public Customer deleteCustomer(@PathVariable long customerId) {
         return customerService.delete(customerId);
     }
 

@@ -24,7 +24,7 @@ public class Customer {
     private long id;
     @Column(nullable = false)
     private String name;
-//    @Pattern(regexp = ".*([a-zA-Z0-9]{4}$)")
+    //@Pattern(regexp = ".*([a-zA-Z0-9]{4}$)")
     @NotNull
     private String email;
     private LocalDate registrationDate;
