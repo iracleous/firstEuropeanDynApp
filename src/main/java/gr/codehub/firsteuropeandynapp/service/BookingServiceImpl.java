@@ -6,6 +6,7 @@ import gr.codehub.firsteuropeandynapp.dto.HotelApiResult;
 import gr.codehub.firsteuropeandynapp.exceptions.EntityException;
 import gr.codehub.firsteuropeandynapp.exceptions.MutableBookingException;
 import gr.codehub.firsteuropeandynapp.mapper.BookingMapper;
+import gr.codehub.firsteuropeandynapp.metricservice.EventService;
 import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.model.Booking;
 import gr.codehub.firsteuropeandynapp.model.Room;
@@ -28,6 +29,7 @@ public class BookingServiceImpl implements BookingService {
     private final RoomRepository roomRepository;
     private final BookingRepository bookingRepository;
     private final BookingMapper bookingMapper;
+    private final EventService eventService;
 
     public Booking createBooking(BookingRequestDto bookingRequestDto) {
         Customer customer = customerRepository
@@ -58,6 +60,9 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public HotelApiResult<BookingResponseDto> readBookingResponseDto(long bookingId) {
+
+        eventService.processEvent();
+
 
        try {
            var booking = read(bookingId);
@@ -131,6 +136,8 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public Booking read(Long bookingId) throws EntityException {
+
+
         try {
             Optional<Booking> booking = bookingRepository.findById(bookingId);
             if (booking.isPresent())
