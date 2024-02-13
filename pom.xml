@@ -69,7 +69,12 @@
             <artifactId>mapstruct</artifactId>
             <version>${mapstruct.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>${mapstruct.version}</version>
+            <scope>provided</scope>
+        </dependency>
 
     </dependencies>
 
@@ -94,6 +99,11 @@
     <profiles>
         <profile>
             <id>development-profile-1</id>
+
+            <properties>
+                <my.property>development-value</my.property>
+            </properties>
+
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
@@ -101,6 +111,12 @@
         </profile>
         <profile>
             <id>staging-profile-1</id>
+
+
+            <properties>
+                <my.property>production-value</my.property>
+            </properties>
+
             <activation>
                 <property>
                     <name>debug</name>

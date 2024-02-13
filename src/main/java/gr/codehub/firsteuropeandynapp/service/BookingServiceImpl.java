@@ -3,6 +3,7 @@ package gr.codehub.firsteuropeandynapp.service;
 import gr.codehub.firsteuropeandynapp.dto.BookingRequestDto;
 import gr.codehub.firsteuropeandynapp.dto.BookingResponseDto;
 import gr.codehub.firsteuropeandynapp.exceptions.MutableBookingException;
+import gr.codehub.firsteuropeandynapp.mapper.BookingMapper;
 import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.model.Booking;
 import gr.codehub.firsteuropeandynapp.model.Room;
@@ -24,6 +25,8 @@ public class BookingServiceImpl implements BookingService {
     private final CustomerRepository customerRepository;
     private final RoomRepository roomRepository;
     private final BookingRepository bookingRepository;
+    private final BookingMapper bookingMapper;
+
 
     @Override
     public BookingResponseDto addBooking(BookingRequestDto bookingRequestDto) {
@@ -42,7 +45,7 @@ public class BookingServiceImpl implements BookingService {
                   .checkOutDate(bookingRequestDto.getCheckOutDate())
                   .build();
 
-          return BookingResponseDto.createDto(create(booking));
+          return bookingMapper.bookingToBookingDto(booking);
       }
       catch(Exception e){
           return null;
@@ -59,7 +62,7 @@ public class BookingServiceImpl implements BookingService {
     public List<BookingResponseDto> readBooking() {
         return read()
                 .stream()
-                .map( booking -> BookingResponseDto.createDto(booking))
+                .map( booking -> bookingMapper.bookingToBookingDto(booking))
                 .collect(Collectors.toList());
     }
 
@@ -68,7 +71,7 @@ public class BookingServiceImpl implements BookingService {
         return bookingRepository
                 .getBookingsByCustomerId(customerId)
                 .stream()
-                .map( booking -> BookingResponseDto.createDto(booking))
+                .map( booking ->bookingMapper.bookingToBookingDto(booking))
                 .collect(Collectors.toList());
     }
 
@@ -85,7 +88,7 @@ public class BookingServiceImpl implements BookingService {
     @Override
     public BookingResponseDto deleteBooking(long bookingId) {
         var booking = delete(bookingId);
-        return BookingResponseDto.createDto(booking);
+        return bookingMapper.bookingToBookingDto(booking);
     }
 
 
