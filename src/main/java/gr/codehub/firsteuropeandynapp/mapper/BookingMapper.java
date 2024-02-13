@@ -10,7 +10,8 @@ import org.springframework.stereotype.Component;
 
 @Mapper(componentModel = "spring")
 public interface BookingMapper {
-    @Mapping(source = "id", target = "id")
+
+
     @Mapping(source = "customer.id", target = "customerId")
     BookingResponseDto bookingToBookingDto(Booking source);
 }

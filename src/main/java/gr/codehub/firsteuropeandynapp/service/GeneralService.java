@@ -8,7 +8,7 @@ import java.util.Optional;
 public interface GeneralService<T, K> {
     T create(T model);
     List<T> read();
-    T read(K id);
+    T read(K id) throws EntityException;
     T update(K id, T newValues);
     T delete(K id);
 }

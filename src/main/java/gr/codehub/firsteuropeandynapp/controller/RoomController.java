@@ -27,7 +27,12 @@ public class RoomController {
 
     @GetMapping("/{roomId}")
     public Room getRoom(@PathVariable long roomId) {
-        return roomService.read(roomId);
+        try {
+            return roomService.read(roomId);
+        }
+        catch(Exception e){
+            return null;
+        }
     }
 
     @PutMapping("/{roomId}")

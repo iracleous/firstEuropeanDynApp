@@ -2,7 +2,10 @@ package gr.codehub.firsteuropeandynapp.service;
 
 import gr.codehub.firsteuropeandynapp.dto.BookingRequestDto;
 import gr.codehub.firsteuropeandynapp.dto.BookingResponseDto;
+import gr.codehub.firsteuropeandynapp.dto.HotelApiResult;
+import gr.codehub.firsteuropeandynapp.exceptions.EntityException;
 import gr.codehub.firsteuropeandynapp.exceptions.MutableBookingException;
+import gr.codehub.firsteuropeandynapp.mapper.BookingMapper;
 import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.model.Booking;
 import gr.codehub.firsteuropeandynapp.model.Room;
@@ -24,6 +27,7 @@ public class BookingServiceImpl implements BookingService {
     private final CustomerRepository customerRepository;
     private final RoomRepository roomRepository;
     private final BookingRepository bookingRepository;
+    private final BookingMapper bookingMapper;
 
     public Booking createBooking(BookingRequestDto bookingRequestDto) {
         Customer customer = customerRepository
@@ -45,14 +49,36 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public BookingResponseDto createBookingResponseDto(BookingRequestDto bookingRequestDto) {
+
         Booking savedBooking = createBooking(bookingRequestDto);
         return BookingResponseDto.createDto(savedBooking);
+
+
     }
 
     @Override
-    public BookingResponseDto readBookingResponseDto(long bookingId) {
-        var booking = read(bookingId);
-        return BookingResponseDto.createDto(booking);
+    public HotelApiResult<BookingResponseDto> readBookingResponseDto(long bookingId) {
+
+       try {
+           var booking = read(bookingId);
+           if (booking != null)
+               return HotelApiResult.<BookingResponseDto>builder()
+                       .data(bookingMapper.bookingToBookingDto(booking))
+                       .message("")
+                       .statusCode(0)
+                       .build();
+           return HotelApiResult.<BookingResponseDto>builder()
+                   .message("This book does not exist")
+                   .statusCode(1)
+                   .build();
+       }
+       catch(Exception e){
+           return HotelApiResult.<BookingResponseDto>builder()
+                   .message("Exception occured "+e.getMessage())
+                   .statusCode(5)
+                   .build();
+       }
+
     }
 
     @Override
@@ -104,11 +130,16 @@ public class BookingServiceImpl implements BookingService {
     }
 
     @Override
-    public Booking read(Long bookingId) {
-        Optional<Booking> booking = bookingRepository.findById(bookingId);
-        if (booking.isPresent())
-            return booking.get();
-        return null;
+    public Booking read(Long bookingId) throws EntityException {
+        try {
+            Optional<Booking> booking = bookingRepository.findById(bookingId);
+            if (booking.isPresent())
+                return booking.get();
+            return null;
+        }
+        catch(Exception ex){
+            throw new EntityException("");
+        }
     }
 
 

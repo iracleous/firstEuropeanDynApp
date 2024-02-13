@@ -2,6 +2,7 @@ package gr.codehub.firsteuropeandynapp.controller;
 
 import gr.codehub.firsteuropeandynapp.dto.BookingRequestDto;
 import gr.codehub.firsteuropeandynapp.dto.BookingResponseDto;
+import gr.codehub.firsteuropeandynapp.dto.HotelApiResult;
 import gr.codehub.firsteuropeandynapp.service.BookingService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -25,8 +26,9 @@ public class BookingController {
     }
 
     @GetMapping("/{bookingId}")
-    public BookingResponseDto getBooking(@PathVariable long bookingId) {
+    public HotelApiResult<BookingResponseDto> getBooking(@PathVariable long bookingId) {
         return bookingService.readBookingResponseDto(bookingId);
+
     }
 
     @GetMapping("")

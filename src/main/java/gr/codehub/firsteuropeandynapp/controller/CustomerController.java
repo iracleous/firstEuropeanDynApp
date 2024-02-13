@@ -29,7 +29,12 @@ public class CustomerController {
 
     @GetMapping("/{customerId}")
     public Customer getCustomer(@PathVariable long customerId) {
-        return customerService.read(customerId);
+        try {
+            return customerService.read(customerId);
+        }
+        catch(Exception e){
+            return null;
+        }
     }
 
     @PutMapping("/{customerId}")
