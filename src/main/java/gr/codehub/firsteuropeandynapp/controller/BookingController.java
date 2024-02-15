@@ -27,12 +27,26 @@ public class BookingController {
 
     @GetMapping("/{bookingId}")
     public HotelApiResult<BookingResponseDto> getBooking(@PathVariable long bookingId) {
-        return bookingService.readBookingResponseDto(bookingId);
+        long startTime = System.currentTimeMillis();
+        HotelApiResult<BookingResponseDto> result = bookingService.readBookingResponseDto(bookingId);
+        long endTime = System.currentTimeMillis();
+        long elapsedTime = endTime - startTime;
+        result.setMessage("The elapsed time is "+elapsedTime);
+        return result;
     }
 
     @GetMapping("")
-    public List<BookingResponseDto> getBookingResponseDto() {
-        return bookingService.readBookingResponseDto();
+    public HotelApiResult<List<BookingResponseDto>> getBookingResponseDto() {
+
+        long startTime = System.currentTimeMillis();
+        List<BookingResponseDto> bookings = bookingService.readBookingResponseDto();
+        long endTime = System.currentTimeMillis();
+        long elapsedTime = endTime - startTime;
+        HotelApiResult<List<BookingResponseDto>> result= new HotelApiResult<>();
+        result.setData(bookings);
+        result.setMessage("The elapsed time is "+elapsedTime);
+
+        return result;
     }
 
     @GetMapping("/customer/{customerId}")

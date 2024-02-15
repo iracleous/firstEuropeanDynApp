@@ -1,0 +1,474 @@
+2024-02-15 17:31:32.629 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 17:31:32.629 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 17:31:32.629  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 17:31:32.629  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 17:31:32.629 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 17:31:32.705 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 17:31:32.705 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 17:31:32.705  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 17:31:32.705  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 17:31:32.705 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 17:31:32.712 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 17:31:32.712 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 17:31:32.712  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 17:31:32.712  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 17:31:32.712 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 17:31:32.721 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 17:31:32.722 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 17:31:32.722  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 17:31:32.722  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 17:31:32.722 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 17:31:32.729 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 17:31:32.729 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 17:31:32.729  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 17:31:32.729  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 17:31:32.729 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 17:31:32.739 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 17:31:32.739 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 17:31:32.739  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 17:31:32.739  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 17:31:32.739 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:37:42.482 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:37:42.482 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:37:42.482  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:37:42.482  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:37:42.482 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:37:42.545 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:37:42.545 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:37:42.545  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:37:42.545  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:37:42.546 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:37:42.554 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:37:42.554 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:37:42.554  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:37:42.554  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:37:42.554 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:37:42.560 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:37:42.560 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:37:42.560  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:37:42.560  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:37:42.560 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:37:42.566 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:37:42.566 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:37:42.566  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:37:42.566  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:37:42.566 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:37:42.572 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:37:42.572 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:37:42.572  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:37:42.572  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:37:42.572 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:40:30.376 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:40:30.376 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:40:30.376  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:40:30.376  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:40:30.376 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:40:30.442 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:40:30.442 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:40:30.442  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:40:30.442  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:40:30.442 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:40:30.448 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:40:30.448 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:40:30.448  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:40:30.448  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:40:30.448 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:40:30.456 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:40:30.456 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:40:30.456  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:40:30.456  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:40:30.456 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:40:30.465 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:40:30.465 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:40:30.465  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:40:30.465  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:40:30.465 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:40:30.472 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:40:30.472 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:40:30.472  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:40:30.472  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:40:30.472 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:51:13.714 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:51:13.714 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:51:13.714  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:51:13.714  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:51:13.714 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:51:13.786 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:51:13.786 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:51:13.786  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:51:13.786  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:51:13.786 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:51:13.792 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:51:13.792 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:51:13.792  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:51:13.792  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:51:13.792 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:51:13.799 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:51:13.799 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:51:13.799  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:51:13.799  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:51:13.799 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:51:13.805 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:51:13.805 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:51:13.805  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:51:13.805  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:51:13.805 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:51:13.812 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:51:13.812 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:51:13.812  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:51:13.812  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:51:13.812 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:54:03.900 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:54:03.900 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:54:03.900  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:54:03.900  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:54:03.900 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:54:03.968 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:54:03.968 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:54:03.968  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:54:03.968  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:54:03.968 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:54:03.975 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:54:03.975 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:54:03.975  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:54:03.975  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:54:03.975 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:54:03.983 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:54:03.983 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:54:03.983  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:54:03.983  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:54:03.983 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:54:03.991 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:54:03.991 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:54:03.991  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:54:03.991  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:54:03.991 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:54:03.999 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:54:03.999 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:54:03.999  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:54:03.999  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:54:03.999 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 18:59:03.193 TRACE DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 18:59:03.193 DEBUG DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 18:59:03.193  INFO DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 18:59:03.193  WARN DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 18:59:03.193 ERROR DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:07:24.221 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:07:24.221 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:07:24.221  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:07:24.221  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:07:24.221 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:07:24.292 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:07:24.292 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:07:24.292  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:07:24.292  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:07:24.292 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:07:24.300 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:07:24.300 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:07:24.300  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:07:24.300  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:07:24.300 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:07:24.308 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:07:24.308 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:07:24.308  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:07:24.308  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:07:24.308 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:07:24.315 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:07:24.315 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:07:24.315  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:07:24.315  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:07:24.316 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:07:24.322 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:07:24.322 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:07:24.322  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:07:24.322  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:07:24.322 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:08:33.232 TRACE DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:08:33.232 DEBUG DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:08:33.232  INFO DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:08:33.232  WARN DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:08:33.232 ERROR DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:11:55.019 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:11:55.019 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:11:55.019  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:11:55.019  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:11:55.019 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:11:55.103 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:11:55.103 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:11:55.103  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:11:55.103  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:11:55.103 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:11:55.108 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:11:55.108 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:11:55.108  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:11:55.108  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:11:55.109 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:11:55.115 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:11:55.115 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:11:55.115  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:11:55.115  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:11:55.115 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:11:55.121 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:11:55.121 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:11:55.121  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:11:55.121  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:11:55.121 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:11:55.129 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:11:55.129 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:11:55.129  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:11:55.129  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:11:55.129 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:12:10.117 TRACE DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:12:10.117 DEBUG DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:12:10.117  INFO DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:12:10.117  WARN DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:12:10.117 ERROR DESKTOP-APL60UG - [nio-8500-exec-3] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:12:35.494 TRACE DESKTOP-APL60UG - [io-8500-exec-10] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:12:35.494 DEBUG DESKTOP-APL60UG - [io-8500-exec-10] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:12:35.494  INFO DESKTOP-APL60UG - [io-8500-exec-10] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:12:35.495  WARN DESKTOP-APL60UG - [io-8500-exec-10] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:12:35.495 ERROR DESKTOP-APL60UG - [io-8500-exec-10] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:20:25.840 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:20:25.840 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:20:25.840  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:20:25.840  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:20:25.840 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:20:25.900 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:20:25.900 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:20:25.900  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:20:25.900  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:20:25.900 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:20:25.907 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:20:25.907 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:20:25.907  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:20:25.907  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:20:25.907 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:20:25.912 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:20:25.912 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:20:25.912  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:20:25.912  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:20:25.912 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:20:25.918 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:20:25.918 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:20:25.918  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:20:25.918  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:20:25.918 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:20:25.924 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:20:25.924 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:20:25.924  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:20:25.924  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:20:25.924 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:20:56.633  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:20:56.647  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:24:01.859 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:24:01.859 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:24:01.859  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:24:01.859  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:24:01.859 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:24:01.955 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:24:01.955 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:24:01.955  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:24:01.955  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:24:01.955 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:24:01.963 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:24:01.963 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:24:01.963  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:24:01.963  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:24:01.963 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:24:01.971 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:24:01.971 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:24:01.971  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:24:01.971  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:24:01.971 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:24:01.979 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:24:01.979 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:24:01.979  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:24:01.979  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:24:01.979 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:24:01.988 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:24:01.988 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:24:01.988  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:24:01.988  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:24:01.988 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:24:15.083  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:24:15.091  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:24:30.652  INFO DESKTOP-APL60UG - [nio-8500-exec-6] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:24:30.655  INFO DESKTOP-APL60UG - [nio-8500-exec-6] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:27:57.184 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:27:57.184 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:27:57.184  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:27:57.184  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:27:57.184 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:27:57.278 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:27:57.278 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:27:57.278  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:27:57.278  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:27:57.278 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:27:57.285 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:27:57.285 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:27:57.285  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:27:57.285  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:27:57.285 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:27:57.294 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:27:57.294 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:27:57.294  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:27:57.294  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:27:57.294 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:27:57.301 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:27:57.301 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:27:57.301  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:27:57.301  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:27:57.301 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:27:57.308 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:27:57.308 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:27:57.308  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:27:57.308  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:27:57.308 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:28:31.298  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:28:31.307  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:29:11.209  INFO DESKTOP-APL60UG - [nio-8500-exec-8] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:29:11.211  INFO DESKTOP-APL60UG - [nio-8500-exec-8] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:34:35.796 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:34:35.796 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:34:35.796  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:34:35.796  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:34:35.796 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:34:35.863 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:34:35.863 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:34:35.863  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:34:35.863  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:34:35.863 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:34:35.870 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:34:35.870 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:34:35.870  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:34:35.870  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:34:35.870 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:34:35.879 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:34:35.879 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:34:35.879  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:34:35.879  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:34:35.879 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:34:35.886 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:34:35.886 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:34:35.886  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:34:35.886  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:34:35.886 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:34:35.891 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:34:35.891 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:34:35.891  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:34:35.891  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:34:35.891 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:35:24.514  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:35:24.527  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:35:39.029  INFO DESKTOP-APL60UG - [nio-8500-exec-2] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:35:39.031  INFO DESKTOP-APL60UG - [nio-8500-exec-2] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:36:03.788  INFO DESKTOP-APL60UG - [nio-8500-exec-6] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:36:03.792  INFO DESKTOP-APL60UG - [nio-8500-exec-6] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:39:31.555 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:39:31.555 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:39:31.555  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:39:31.555  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:39:31.555 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:39:31.627 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:39:31.628 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:39:31.628  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:39:31.628  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:39:31.628 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:39:31.634 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:39:31.634 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:39:31.634  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:39:31.634  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:39:31.634 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:39:31.641 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:39:31.641 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:39:31.641  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:39:31.641  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:39:31.641 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:39:31.646 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:39:31.646 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:39:31.646  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:39:31.646  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:39:31.646 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:39:31.653 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:39:31.653 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:39:31.653  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:39:31.653  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:39:31.653 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:39:36.786  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:39:36.909  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:39:41.945  INFO DESKTOP-APL60UG - [nio-8500-exec-2] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:39:42.064  INFO DESKTOP-APL60UG - [nio-8500-exec-2] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:40:00.441  INFO DESKTOP-APL60UG - [nio-8500-exec-6] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:40:00.554  INFO DESKTOP-APL60UG - [nio-8500-exec-6] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:40:33.313 TRACE DESKTOP-APL60UG - [nio-8500-exec-9] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:40:33.313 DEBUG DESKTOP-APL60UG - [nio-8500-exec-9] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:40:33.313  INFO DESKTOP-APL60UG - [nio-8500-exec-9] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:40:33.313  WARN DESKTOP-APL60UG - [nio-8500-exec-9] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:40:33.313 ERROR DESKTOP-APL60UG - [nio-8500-exec-9] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:41:10.499 TRACE DESKTOP-APL60UG - [nio-8500-exec-5] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:41:10.499 DEBUG DESKTOP-APL60UG - [nio-8500-exec-5] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:41:10.499  INFO DESKTOP-APL60UG - [nio-8500-exec-5] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:41:10.499  WARN DESKTOP-APL60UG - [nio-8500-exec-5] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:41:10.499 ERROR DESKTOP-APL60UG - [nio-8500-exec-5] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:42:42.211 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:42:42.211 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:42:42.211  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:42:42.211  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:42:42.211 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:42:42.282 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:42:42.284 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:42:42.284  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:42:42.284  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:42:42.284 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:42:42.288 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:42:42.288 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:42:42.288  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:42:42.288  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:42:42.288 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:42:42.295 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:42:42.295 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:42:42.295  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:42:42.295  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:42:42.295 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:42:42.301 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:42:42.301 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:42:42.301  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:42:42.301  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:42:42.301 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:42:42.307 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:42:42.307 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:42:42.307  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:42:42.307  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:42:42.307 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:42:55.918  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : Entering readBookingResponseDto 
+2024-02-15 19:42:56.046  INFO DESKTOP-APL60UG - [nio-8500-exec-1] [g.c.f.s.BookingServiceImpl         ] : ending readBookingResponseDto 
+2024-02-15 19:51:54.373 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:51:54.373 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:51:54.373  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:51:54.373  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:51:54.373 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:51:54.452 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:51:54.452 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:51:54.452  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:51:54.453  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:51:54.453 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:51:54.462 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:51:54.462 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:51:54.462  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:51:54.462  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:51:54.462 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:51:54.469 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:51:54.469 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:51:54.469  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:51:54.469  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:51:54.469 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:51:54.478 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:51:54.479 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:51:54.479  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:51:54.479  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:51:54.479 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event
+2024-02-15 19:51:54.487 TRACE DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------tracing booking create event
+2024-02-15 19:51:54.487 DEBUG DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------debugging booking create event
+2024-02-15 19:51:54.487  INFO DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : ---------------info booking create event
+2024-02-15 19:51:54.487  WARN DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Warning in booking event 
+2024-02-15 19:51:54.487 ERROR DESKTOP-APL60UG - [           main] [g.c.f.s.BookingServiceImpl         ] : -----------------Error in booking event

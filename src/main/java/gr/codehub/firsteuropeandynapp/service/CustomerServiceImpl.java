@@ -1,8 +1,6 @@
 package gr.codehub.firsteuropeandynapp.service;
 
-import gr.codehub.firsteuropeandynapp.exceptions.EntityException;
 import gr.codehub.firsteuropeandynapp.model.Customer;
-import gr.codehub.firsteuropeandynapp.model.Room;
 import gr.codehub.firsteuropeandynapp.repository.CustomerRepository;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
@@ -18,9 +16,7 @@ public class CustomerServiceImpl implements  CustomerService {
     protected final Logger logger = LoggerFactory.getLogger(getClass());
     @Override
     public Customer create(Customer model) {
-
         logger.info("--------Info for customer create");
-
         customerRepository.save(model);
         return model;
     }
@@ -53,5 +49,4 @@ public class CustomerServiceImpl implements  CustomerService {
         }
         return customer;
     }
-
 }

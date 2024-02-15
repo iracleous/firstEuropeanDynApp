@@ -16,6 +16,8 @@ import gr.codehub.firsteuropeandynapp.repository.RoomRepository;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
@@ -61,25 +63,36 @@ public class BookingServiceImpl implements BookingService {
     }
 
     @Override
+    @CacheEvict(cacheNames = "bookingsCache", allEntries = true)
     public BookingResponseDto createBookingResponseDto(BookingRequestDto bookingRequestDto) {
         Booking savedBooking = createBooking(bookingRequestDto);
         return BookingResponseDto.createDto(savedBooking);
     }
 
     @Override
+    @Cacheable(cacheNames = "bookingCache" , key="#bookingId")
     public HotelApiResult<BookingResponseDto> readBookingResponseDto(long bookingId) {
         logger.info("Entering readBookingResponseDto ");
         HotelApiResult hotelApiResult;
 
         eventService.processEvent();
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+
        try {
            var booking = read(bookingId);
-           if (booking != null)
+           if (booking != null) {
+
                hotelApiResult = HotelApiResult.<BookingResponseDto>builder()
                        .data(bookingMapper.bookingToBookingDto(booking))
                        .message("")
                        .statusCode(0)
                        .build();
+           }
            else hotelApiResult = HotelApiResult.<BookingResponseDto>builder()
                    .message("This book does not exist")
                    .statusCode(1)
@@ -96,7 +109,14 @@ public class BookingServiceImpl implements BookingService {
     }
 
     @Override
+    @Cacheable("bookingsCache")
     public List<BookingResponseDto> readBookingResponseDto() {
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
         return read()
                 .stream()
                 .map(booking -> BookingResponseDto.createDto(booking))
@@ -108,7 +128,7 @@ public class BookingServiceImpl implements BookingService {
         return bookingRepository
                 .getBookingsByCustomerId(customerId)
                 .stream()
-                .map(booking -> BookingResponseDto.createDto(booking))
+                .map(BookingResponseDto::createDto)
                 .collect(Collectors.toList());
     }
 
@@ -116,13 +136,12 @@ public class BookingServiceImpl implements BookingService {
     public BookingResponseDto readBookingByCustomerId(Long customerId) {
         // TODO
         var result = bookingRepository.getBookingByCustomerId(customerId);
-        if (result.isEmpty())
-            return null;
-        return BookingResponseDto.createDto(result.get());
+        return result.map(BookingResponseDto::createDto).orElse(null);
     }
 
 
     @Override
+    @CacheEvict(cacheNames = {"bookingCache","bookingsCache"} , allEntries = true)
     public BookingResponseDto deleteBooking(long bookingId) {
         var booking = delete(bookingId);
         return BookingResponseDto.createDto(booking);

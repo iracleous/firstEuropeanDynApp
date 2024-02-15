@@ -13,5 +13,8 @@ public interface BookingMapper {
 
 
     @Mapping(source = "customer.id", target = "customerId")
+    @Mapping(source = "room.id", target = "roomId")
+    @Mapping(source = "customer.name", target = "customerName")
+
     BookingResponseDto bookingToBookingDto(Booking source);
 }
