@@ -5,6 +5,8 @@ import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.model.Room;
 import gr.codehub.firsteuropeandynapp.repository.CustomerRepository;
 import lombok.AllArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,9 +15,12 @@ import java.util.List;
 @AllArgsConstructor
 public class CustomerServiceImpl implements  CustomerService {
     private final CustomerRepository customerRepository;
-
+    protected final Logger logger = LoggerFactory.getLogger(getClass());
     @Override
     public Customer create(Customer model) {
+
+        logger.info("--------Info for customer create");
+
         customerRepository.save(model);
         return model;
     }

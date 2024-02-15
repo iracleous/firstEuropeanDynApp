@@ -14,6 +14,8 @@ import gr.codehub.firsteuropeandynapp.repository.CustomerRepository;
 import gr.codehub.firsteuropeandynapp.repository.BookingRepository;
 import gr.codehub.firsteuropeandynapp.repository.RoomRepository;
 import lombok.AllArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
@@ -31,7 +33,16 @@ public class BookingServiceImpl implements BookingService {
     private final BookingMapper bookingMapper;
     private final EventService eventService;
 
+    protected final Logger logger = LoggerFactory.getLogger(getClass());
+
     public Booking createBooking(BookingRequestDto bookingRequestDto) {
+
+        logger.trace("---------------tracing booking create event");
+        logger.debug("---------------debugging booking create event");
+        logger.info("---------------info booking create event");
+        logger.warn("-----------------Warning in booking event ");
+        logger.error("-----------------Error in booking event");
+
         Customer customer = customerRepository
                 .findById(bookingRequestDto.getCustomerId())
                 .get();
@@ -51,39 +62,37 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public BookingResponseDto createBookingResponseDto(BookingRequestDto bookingRequestDto) {
-
         Booking savedBooking = createBooking(bookingRequestDto);
         return BookingResponseDto.createDto(savedBooking);
-
-
     }
 
     @Override
     public HotelApiResult<BookingResponseDto> readBookingResponseDto(long bookingId) {
+        logger.info("Entering readBookingResponseDto ");
+        HotelApiResult hotelApiResult;
 
         eventService.processEvent();
-
-
        try {
            var booking = read(bookingId);
            if (booking != null)
-               return HotelApiResult.<BookingResponseDto>builder()
+               hotelApiResult = HotelApiResult.<BookingResponseDto>builder()
                        .data(bookingMapper.bookingToBookingDto(booking))
                        .message("")
                        .statusCode(0)
                        .build();
-           return HotelApiResult.<BookingResponseDto>builder()
+           else hotelApiResult = HotelApiResult.<BookingResponseDto>builder()
                    .message("This book does not exist")
                    .statusCode(1)
                    .build();
        }
        catch(Exception e){
-           return HotelApiResult.<BookingResponseDto>builder()
+           hotelApiResult = HotelApiResult.<BookingResponseDto>builder()
                    .message("Exception occured "+e.getMessage())
                    .statusCode(5)
                    .build();
        }
-
+        logger.info("ending readBookingResponseDto ");
+        return hotelApiResult;
     }
 
     @Override

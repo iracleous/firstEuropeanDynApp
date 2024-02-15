@@ -28,7 +28,6 @@ public class BookingController {
     @GetMapping("/{bookingId}")
     public HotelApiResult<BookingResponseDto> getBooking(@PathVariable long bookingId) {
         return bookingService.readBookingResponseDto(bookingId);
-
     }
 
     @GetMapping("")
