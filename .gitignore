@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+/data/demo.mv.db
+/data/reservations.mv.db
+/data/reservations.trace.db
+/data/
+/logs/

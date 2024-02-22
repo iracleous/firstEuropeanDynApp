@@ -8,4 +8,8 @@ public class EntityException extends Exception {
     public EntityException(){
         super();
     }
+
+    public EntityException(String message, Throwable t) {
+        super(message, t);
+    }
 }

@@ -27,9 +27,9 @@ public class BookingController {
 
     @GetMapping("/{bookingId}")
     public HotelApiResult<BookingResponseDto> getBooking(@PathVariable long bookingId) {
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime(); // 3:48 20/6/2024 -> 12345
         HotelApiResult<BookingResponseDto> result = bookingService.readBookingResponseDto(bookingId);
-        long endTime = System.currentTimeMillis();
+        long endTime = System.nanoTime();  // 3:12 20/6/2024 -> 810
         long elapsedTime = endTime - startTime;
         result.setMessage("The elapsed time is "+elapsedTime);
         return result;

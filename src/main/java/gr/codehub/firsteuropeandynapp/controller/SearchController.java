@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.List;
 
 @RestController
@@ -31,4 +32,11 @@ public class SearchController {
     public List<Room> findRoomsoffers() {
         return searchService.findRoomOffers();
     }
+
+    @GetMapping("/rooms/{date}")
+    public List<Room> findRoomByDate(@PathVariable("date")LocalDate date) {
+        System.out.println("Search date is " + date);
+        return searchService.findRoomByDate(date);
+    }
+
 }

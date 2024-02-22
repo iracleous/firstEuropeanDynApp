@@ -173,7 +173,7 @@ public class BookingServiceImpl implements BookingService {
             return null;
         }
         catch(Exception ex){
-            throw new EntityException("");
+            throw new EntityException("", ex);
         }
     }
 

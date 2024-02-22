@@ -41,6 +41,11 @@ public class SampleContent implements CommandLineRunner {
         createBookingDto(customer1, room5, "2024-04-07", "2024-04-09");
         createBookingDto(customer2, room4, "2024-02-25", "2024-03-04");
 
+        createBookingDto(customer3, room1, "2025-01-01", "2025-01-02");
+        createBookingDto(customer3, room2, "2025-01-01", "2025-01-02");
+        createBookingDto(customer3, room4, "2025-01-01", "2025-01-02");
+        createBookingDto(customer3, room5, "2025-01-01", "2025-01-02");
+
     }
 
     private Booking createBookingDto(Customer customer, Room room, String checkInDate, String checkOutDate) {
