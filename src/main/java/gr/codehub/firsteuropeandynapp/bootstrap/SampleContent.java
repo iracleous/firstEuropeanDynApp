@@ -4,9 +4,12 @@ import gr.codehub.firsteuropeandynapp.dto.BookingRequestDto;
 import gr.codehub.firsteuropeandynapp.model.Booking;
 import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.model.Room;
+import gr.codehub.firsteuropeandynapp.model.RoomReview;
+import gr.codehub.firsteuropeandynapp.model.RoomReviewKey;
 import gr.codehub.firsteuropeandynapp.service.CustomerService;
 import gr.codehub.firsteuropeandynapp.service.GeneralService;
 import gr.codehub.firsteuropeandynapp.service.BookingService;
+import gr.codehub.firsteuropeandynapp.service.RoomReviewService;
 import gr.codehub.firsteuropeandynapp.service.RoomService;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
@@ -21,7 +24,8 @@ import java.time.Month;
 public class SampleContent implements CommandLineRunner {
     private final RoomService roomService;
     private final CustomerService customerService;
-    private  final BookingService bookingService;
+    private final BookingService bookingService;
+    private final RoomReviewService roomReviewService;
     @Override
     public void run(String... args) throws Exception {
         Customer customer1 = createCustomer("John Smith", "john.smith@johnsmith.com", "2024-01-13");
@@ -46,6 +50,18 @@ public class SampleContent implements CommandLineRunner {
         createBookingDto(customer3, room4, "2025-01-01", "2025-01-02");
         createBookingDto(customer3, room5, "2025-01-01", "2025-01-02");
 
+        createRoomReview(customer1, room3, 3, "Simple and functional");
+
+    }
+
+    private RoomReview createRoomReview(Customer customer, Room room, int stars, String text) {
+        RoomReview review = RoomReview.builder()
+                .reviewStars(stars)
+                .reviewText(text)
+                .key(new RoomReviewKey(customer.getId(), room.getId()))
+                .build();
+        roomReviewService.create(review);
+        return review;
     }
 
     private Booking createBookingDto(Customer customer, Room room, String checkInDate, String checkOutDate) {

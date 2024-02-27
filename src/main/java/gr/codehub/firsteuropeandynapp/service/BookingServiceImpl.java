@@ -63,14 +63,14 @@ public class BookingServiceImpl implements BookingService {
     }
 
     @Override
-    @CacheEvict(cacheNames = "bookingsCache", allEntries = true)
+//    @CacheEvict(cacheNames = "bookingsCache", allEntries = true)
     public BookingResponseDto createBookingResponseDto(BookingRequestDto bookingRequestDto) {
         Booking savedBooking = createBooking(bookingRequestDto);
         return BookingResponseDto.createDto(savedBooking);
     }
 
     @Override
-    @Cacheable(cacheNames = "bookingCache" , key="#bookingId")
+//    @Cacheable(cacheNames = "bookingCache" , key="#bookingId")
     public HotelApiResult<BookingResponseDto> readBookingResponseDto(long bookingId) {
         logger.info("Entering readBookingResponseDto ");
         HotelApiResult hotelApiResult;
@@ -109,7 +109,7 @@ public class BookingServiceImpl implements BookingService {
     }
 
     @Override
-    @Cacheable("bookingsCache")
+//    @Cacheable("bookingsCache")
     public List<BookingResponseDto> readBookingResponseDto() {
         try {
             Thread.sleep(100);
@@ -141,7 +141,7 @@ public class BookingServiceImpl implements BookingService {
 
 
     @Override
-    @CacheEvict(cacheNames = {"bookingCache","bookingsCache"} , allEntries = true)
+//    @CacheEvict(cacheNames = {"bookingCache","bookingsCache"} , allEntries = true)
     public BookingResponseDto deleteBooking(long bookingId) {
         var booking = delete(bookingId);
         return BookingResponseDto.createDto(booking);

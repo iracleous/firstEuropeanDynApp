@@ -1,6 +1,8 @@
 package gr.codehub.firsteuropeandynapp.controller;
 
+import gr.codehub.firsteuropeandynapp.dto.CustomerDto;
 import gr.codehub.firsteuropeandynapp.exceptions.EntityException;
+import gr.codehub.firsteuropeandynapp.mapper.BookingMapper;
 import gr.codehub.firsteuropeandynapp.model.Customer;
 import gr.codehub.firsteuropeandynapp.service.CustomerService;
 import gr.codehub.firsteuropeandynapp.service.CustomerServiceImpl;
@@ -16,6 +18,7 @@ import java.util.Optional;
 @AllArgsConstructor
 public class CustomerController {
     private final CustomerService customerService;
+    private final BookingMapper mapper;
 
     @PostMapping
     public Customer createCustomer(@RequestBody Customer customer) throws EntityException {
@@ -28,9 +31,12 @@ public class CustomerController {
     }
 
     @GetMapping("/{customerId}")
-    public Customer getCustomer(@PathVariable long customerId) {
+    public CustomerDto getCustomer(@PathVariable long customerId,
+                                   @RequestHeader(value = "Version", defaultValue = "1.0") String version) {
         try {
-            return customerService.read(customerId);
+            Customer customer = customerService.read(customerId);
+            customer.setName(customer.getName() + " version " + version);
+            return mapper.customerToCustomerDto(customer);
         }
         catch(Exception e){
             return null;
